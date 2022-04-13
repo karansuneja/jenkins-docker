@@ -5,7 +5,6 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    user: root
     environment:
       - HOST_DOCKER=/var/run/docker.sock
     volumes:
